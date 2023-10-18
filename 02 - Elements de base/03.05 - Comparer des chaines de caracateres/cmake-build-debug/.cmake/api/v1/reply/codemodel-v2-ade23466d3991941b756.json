@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "03_05___Comparer_des_chaines_de_caracateres",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "03_05___Comparer_des_chaines_de_caracateres::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_05___Comparer_des_chaines_de_caracateres-Debug-00941dfd5ec562b05596.json",
+					"name" : "03_05___Comparer_des_chaines_de_caracateres",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/peiwenliao/Documents/Prog1/Exercice2023/02 - Elements de base/03.05 - Comparer des chaines de caracateres/cmake-build-debug",
+		"source" : "/Users/peiwenliao/Documents/Prog1/Exercice2023/02 - Elements de base/03.05 - Comparer des chaines de caracateres"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

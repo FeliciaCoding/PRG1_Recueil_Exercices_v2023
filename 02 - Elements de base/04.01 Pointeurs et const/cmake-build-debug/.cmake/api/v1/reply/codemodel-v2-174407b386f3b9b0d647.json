@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "04_01_Pointeurs_et_const",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "04_01_Pointeurs_et_const::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_01_Pointeurs_et_const-Debug-4fdb4864fb530a2baf42.json",
+					"name" : "04_01_Pointeurs_et_const",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/peiwenliao/Documents/Prog1/Exercice-2023/02 - Elements de base/04.01 Pointeurs et const/cmake-build-debug",
+		"source" : "/Users/peiwenliao/Documents/Prog1/Exercice-2023/02 - Elements de base/04.01 Pointeurs et const"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "03_09_Volume_dune_bouteille",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "03_09_Volume_dune_bouteille::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_09_Volume_dune_bouteille-Debug-1c4b99684f68d55761d6.json",
+					"name" : "03_09_Volume_dune_bouteille",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/peiwenliao/Documents/Prog1/Exercice2023/02 - Elements de base/03.09 Volume dune bouteille/cmake-build-debug",
+		"source" : "/Users/peiwenliao/Documents/Prog1/Exercice2023/02 - Elements de base/03.09 Volume dune bouteille"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

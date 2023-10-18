@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "03_04___Evaluation_dexpressions___Operateurs_logiques",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "03_04___Evaluation_dexpressions___Operateurs_logiques::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_04___Evaluation_dexpressions___Operateurs_logiques-Debug-b3344b0d1162463238ac.json",
+					"name" : "03_04___Evaluation_dexpressions___Operateurs_logiques",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/peiwenliao/Documents/Prog1/Exercice2023/02 - Elements de base/03.04 - Evaluation dexpressions - Operateurs logiques/cmake-build-debug",
+		"source" : "/Users/peiwenliao/Documents/Prog1/Exercice2023/02 - Elements de base/03.04 - Evaluation dexpressions - Operateurs logiques"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

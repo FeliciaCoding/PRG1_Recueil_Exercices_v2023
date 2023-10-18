@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "03_02_Division_entiere_reelle",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "03_02_Division_entiere_reelle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_02_Division_entiere_reelle-Debug-3da3756960c2a4393e74.json",
+					"name" : "03_02_Division_entiere_reelle",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/peiwenliao/Documents/Prog1/Exercice2023/02 - Elements de base/03.02-Division entiere reelle/cmake-build-debug",
+		"source" : "/Users/peiwenliao/Documents/Prog1/Exercice2023/02 - Elements de base/03.02-Division entiere reelle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
