@@ -1,4 +1,4 @@
-## Buffer
+## Buffer de lecture
 
 ### Objectif
 - Compréhension du buffer de saisie
@@ -42,6 +42,8 @@ L’utilisateur saisi dans l’ordre les informations suivantes lorsque le progr
 #include <cstdlib>   // EXIT_SUCCESS
 #include <iostream>  // cout et cin
 #include <limits>    // numeric_limits<streamsize>::max()
+
+using namespace std;
 
 int main() {
    int      a, b;
@@ -95,7 +97,7 @@ int main() {
 
 1. le buffer ne peut pas être traité s'il est vide (lu, traité, ...)
 1. lorsque le buffer est vide, une lecture met l'exécution du programme en pause jusqu'à la saisie de valeur(s) suivi de ENTER `↩︎`
-1. les espaces précédants une valeurs numériques sont consommés
+1. les espaces précédants une valeurs sont consommés
 1. la lecture s'arrête dès la rencontre d'un caractère incompatible avec le type considéré (12 345 => 12, 345 et 1a2 => 1, 'a', 2)
 1. les valeurs non consommées restent dans le flux (dans cet exemple : lecture de 'n' dans c)
 1. une valeur incompatible avec l'opérateur de flux (ex 'a' => int) fait planter le flux, ce qui ne déclanche pas d'erreur
