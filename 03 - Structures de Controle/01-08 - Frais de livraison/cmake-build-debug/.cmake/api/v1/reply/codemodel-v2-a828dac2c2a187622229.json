@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "01_08___Frais_de_livraison",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01_08___Frais_de_livraison::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_08___Frais_de_livraison-Debug-80f05293b358aa7d02ca.json",
+					"name" : "01_08___Frais_de_livraison",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/peiwenliao/Documents/Prog1/Exercice-2023/PRG1_Recueil_Exercices/03 - Structures de Controle/01-08 - Frais de livraison/cmake-build-debug",
+		"source" : "/Users/peiwenliao/Documents/Prog1/Exercice-2023/PRG1_Recueil_Exercices/03 - Structures de Controle/01-08 - Frais de livraison"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
