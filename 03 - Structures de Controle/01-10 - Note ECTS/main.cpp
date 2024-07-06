@@ -43,7 +43,7 @@ int main() {
             cout << "D";
         } else if ( 4. <= note ) {
             cout << "E";
-        }  else if ( 0. <= note ) {
+        }  else {
             cout << "F";
         }
     }

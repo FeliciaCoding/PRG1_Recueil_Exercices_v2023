@@ -52,19 +52,6 @@ void days_if_else ( int no_month) {
     }
 }
 
-/*
-
- Function Pointers:
- allow to pass the address of a function as an argument
- to another function.
-
- void callFunction(void (*func)(int), int arg) {
-    // Call the function using the function pointer
-    func(arg);
-}
-
- */
-
 
 void days_operator ( int no_month) {
     (no_month == 2) ? cout << "28 or 29 days (depending on leap year)\n" :
@@ -80,6 +67,19 @@ void days_operator ( int no_month) {
 //    cout << days;
 }
 
+
+/*
+
+ Function Pointers:
+ allow to pass the address of a function as an argument
+ to another function.
+
+ void callFunction(void (*func)(int), int arg) {
+    // Call the function using the function pointer
+    func(arg);
+}
+
+ */
 
 void print_days(const string& method, void (*days_function)(int), int no_month){
 
