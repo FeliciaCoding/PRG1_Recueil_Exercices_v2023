@@ -13,7 +13,7 @@ using namespace std;
 
 int main() {
 
-    // 02-03 - accroissement d un avoir bancaire (1) - While loop
+    //// 02-03 - accroissement d un avoir bancaire (1) - While loop
 //    cout << "Enter the initial balance : ";
 //    int initialBalance; cin >> initialBalance;
 //
@@ -41,7 +41,7 @@ int main() {
 //    }
 
 
-    //  * 02-06 - accroissement d un avoir bancaire (2) - For loop
+    ////  * 02-06 - accroissement d un avoir bancaire (2) - For loop
     // 02-08 - accroissement d un avoir bancaire (3) - do while loop
     cout << " [ For Loop + Do while loop ]" << endl;
 
@@ -70,22 +70,10 @@ int main() {
         currentBalance *= (1+interestRate/100);
     }
 
-    cout << "The balance will be " << currentBalance << " CHF";
+    cout << "The balance after " << numYear
+            << " year" << (numYear>1? "s" : "")
+            << " will be " << currentBalance << " CHF";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    cout << "The balance will be " << currentBalance << " CHF";
 
 
     return 0;
