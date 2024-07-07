@@ -26,7 +26,7 @@ int main() {
 //
 //    cout << " [ While Loop ]" << endl;
 //    int numYear=0;
-//    int currentBalance = initialBalance;
+//    double currentBalance = initialBalance;
 //    if(initialBalance >= targetBalance) {
 //        cout << "Target balance have been reached";
 //    } else if (interestRate<=0) {
@@ -42,16 +42,28 @@ int main() {
 
 
     //  * 02-06 - accroissement d un avoir bancaire (2) - For loop
-    cout << " [ For Loop ]" << endl;
+    // 02-08 - accroissement d un avoir bancaire (3) - do while loop
+    cout << " [ For Loop + Do while loop ]" << endl;
 
-    cout << "Enter the initial balance : ";
-    int initialBalance; cin >> initialBalance;
+    int initialBalance;
+    do{
+        // cannot declare initialBalance here -> local variable
+        cout << "Enter the initial balance : ";
+        cin >> initialBalance;
 
-    cout << "Enter the number of years : ";
-    int numYear; cin >> numYear;
+    } while (initialBalance < 1000 );
 
-    cout << "Enter the interest rate (%) : ";
-    double interestRate; cin >> interestRate;
+    double interestRate;
+    do{
+        cout << "Enter the interest rate (%) : ";
+        cin >> interestRate;
+    }while(interestRate >50 || interestRate<-5);
+
+    int numYear;
+    do {
+        cout << "Enter the number of years : ";
+        cin >> numYear;
+    }while(numYear <=0);
 
     double currentBalance = initialBalance;
     for (int i = 0; i < numYear; ++i ){
@@ -59,6 +71,22 @@ int main() {
     }
 
     cout << "The balance will be " << currentBalance << " CHF";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    cout << "The balance will be " << currentBalance << " CHF";
+
 
     return 0;
 }
