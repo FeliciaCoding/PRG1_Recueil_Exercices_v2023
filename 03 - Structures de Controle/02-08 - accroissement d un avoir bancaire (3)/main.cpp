@@ -13,33 +13,52 @@ using namespace std;
 
 int main() {
 
+    // 02-03 - accroissement d un avoir bancaire (1) - While loop
+//    cout << "Enter the initial balance : ";
+//    int initialBalance; cin >> initialBalance;
+//
+//    cout << "Enter the target balance : ";
+//    int targetBalance; cin >> targetBalance;
+//
+//    cout << "Enter the interest rate (%) : ";
+//    //// cannot be INT, once devided by 100, interestRate will become 0
+//    double interestRate; cin >> interestRate;
+//
+//    cout << " [ While Loop ]" << endl;
+//    int numYear=0;
+//    int currentBalance = initialBalance;
+//    if(initialBalance >= targetBalance) {
+//        cout << "Target balance have been reached";
+//    } else if (interestRate<=0) {
+//        cout << "Target balance will nev er be reached";
+//    } else {
+//        //// VARIABLES CAN NOT BE DECLARED HERE, WILL DISAPPEAR ONCE THEY ARE OUTSIDE OF THE LOOP
+//        while (currentBalance < targetBalance) {
+//            ++numYear;
+//            currentBalance = currentBalance * (1 + interestRate / 100);
+//        }
+//        cout << "The target balance will be reached after " << numYear << " year" << ((numYear >1) ? "s" : "" ) << endl;
+//    }
+
+
+    //  * 02-06 - accroissement d un avoir bancaire (2) - For loop
+    cout << " [ For Loop ]" << endl;
+
     cout << "Enter the initial balance : ";
     int initialBalance; cin >> initialBalance;
 
-    cout << "Enter the target balance : ";
-    int targetBalance; cin >> targetBalance;
+    cout << "Enter the number of years : ";
+    int numYear; cin >> numYear;
 
     cout << "Enter the interest rate (%) : ";
-    //// cannot be INT, once devided by 100, interestRate will become 0
     double interestRate; cin >> interestRate;
 
-    // 02-03 - accroissement d un avoir bancaire (1) - While loop
-    int numYear=0;
-    int currentBalance = initialBalance;
-    if(initialBalance >= targetBalance) {
-        cout << "Target balance have been reached";
-    } else if (interestRate<=0) {
-        cout << "Target balance will never be reached";
-    } else {
-        //// VARIABLES CAN NOT BE DECLARED HERE, WILL DISAPPEAR ONCE THEY ARE OUTSIDE OF THE LOOP
-        while (currentBalance < targetBalance) {
-            ++numYear;
-            currentBalance = currentBalance * (1 + interestRate / 100);
-        }
-        cout << "The target balance will be reached after " << numYear << " year" << ((numYear >1) ? "s" : "" ) << endl;
+    double currentBalance = initialBalance;
+    for (int i = 0; i < numYear; ++i ){
+        currentBalance *= (1+interestRate/100);
     }
 
-
+    cout << "The balance will be " << currentBalance << " CHF";
 
     return 0;
 }
