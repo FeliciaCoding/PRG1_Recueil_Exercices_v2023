@@ -15,10 +15,10 @@ int main() {
 
     //// 02-03 - accroissement d un avoir bancaire (1) - While loop
 //    cout << "Enter the initial balance : ";
-//    int initialBalance; cin >> initialBalance;
+//    double initialBalance; cin >> initialBalance;
 //
 //    cout << "Enter the target balance : ";
-//    int targetBalance; cin >> targetBalance;
+//    double targetBalance; cin >> targetBalance;
 //
 //    cout << "Enter the interest rate (%) : ";
 //    //// cannot be INT, once devided by 100, interestRate will become 0
@@ -45,7 +45,7 @@ int main() {
     // 02-08 - accroissement d un avoir bancaire (3) - do while loop
     cout << " [ For Loop + Do while loop ]" << endl;
 
-    int initialBalance;
+    double initialBalance;
     do{
         // cannot declare initialBalance here -> local variable
         cout << "Enter the initial balance : ";
