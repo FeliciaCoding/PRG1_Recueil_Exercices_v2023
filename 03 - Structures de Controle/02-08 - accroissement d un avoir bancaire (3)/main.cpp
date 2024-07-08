@@ -42,7 +42,7 @@ int main() {
 
 
     ////  * 02-06 - accroissement d un avoir bancaire (2) - For loop
-    // 02-08 - accroissement d un avoir bancaire (3) - do while loop
+    //// 02-08 - accroissement d un avoir bancaire (3) - do while loop
     cout << " [ For Loop + Do while loop ]" << endl;
 
     double initialBalance;
