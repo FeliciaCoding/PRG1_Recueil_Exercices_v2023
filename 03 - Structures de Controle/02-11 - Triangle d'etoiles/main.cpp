@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 int main() {
 
     // assuming the high can only be integer
