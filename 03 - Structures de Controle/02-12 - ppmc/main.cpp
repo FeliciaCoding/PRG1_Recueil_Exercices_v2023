@@ -11,6 +11,5 @@ int main() {
     }while(m<=0 || n<=0 );
 
 
-    cout << "Hello, World!" << endl;
     return 0;
 }
