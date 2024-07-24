@@ -11,8 +11,8 @@ using namespace std;
 const string POSITIVE_MESSAGE = " is a Leap Year.";
 const string NEGATIVE_MESSAGE = " is not a Leap Year.";
 
-
-bool isLeapYear(int year ) {
+// solution 1 :
+bool leapYear_long(int year ) {
     cout << year;
 
     if (year % 4 == 0) {
@@ -30,14 +30,37 @@ bool isLeapYear(int year ) {
         cout << NEGATIVE_MESSAGE<< endl;
         return false;
     }
+
+}
+
+
+// solution 2 :
+
+bool isLeapYear_short (int year) {
+    // elle est divisible par 400 ou alors par 4 mais pas par 100.
+    return year % 400 == 0 or (year % 4 == 0 && year % 100 != 0 );
+
+}
+
+
+void test (int year) {
+    cout << year << " : " << boolalpha << isLeapYear_short(year) <<  endl;
 }
 
 
 
 int main() {
-    isLeapYear(1900);
-    isLeapYear(2000);
-    isLeapYear(2010);
-    isLeapYear(2020);
+    leapYear_long(1900);
+    leapYear_long(2000);
+    leapYear_long(2010);
+    leapYear_long(2020);
+
+    cout << endl;
+
+    test(1900);
+    test(2000);
+    test(2010);
+    test(2020);
+
     return 0;
 }
