@@ -3,14 +3,22 @@
 
 using namespace std;
 
+// Separates the calculation of the actual withdrawal amount 'effectiveWithdraw'
+// from the modification of 'currentBalance', which is clearer and more maintainable.
 
+// Keeps the original 'withdrawAmount' unchanged,
+// Returns a new double value, which is safer as it avoids potential side effects.
+// double& withdraw(double& currentBalance, double& withdrawAmount){
+double withdraw(double& currentBalance, double withdrawAmount){
 
-double& withdraw(double& currentBalance, double& withdrawAmount){
-
-    if (currentBalance >= withdrawAmount){
-        currentBalance -= withdrawAmount;
+    double effectiveWithdraw;
+    // exclude the case when currentBalance =  withdrawAmount
+    // if (currentBalance >= withdrawAmount){
+    if (currentBalance > withdrawAmount){
+        effectiveWithdraw = withdrawAmount;
+        currentBalance -= effectiveWithdraw;
     } else {
-        withdrawAmount = currentBalance;
+        effectiveWithdraw = currentBalance;
         currentBalance = 0;
     }
 
@@ -28,15 +36,16 @@ int main() {
     double intBalance = 500;
     double currentBalance = intBalance;
 
-    double withdrawAmount = 300;
+    // let user fill in the amount of withdraw instead of set the variable
+    // double withdrawAmount = 300;
     double effectiveWithdraw;
 
-    effectiveWithdraw = withdraw(currentBalance, withdrawAmount);
+    effectiveWithdraw = withdraw(currentBalance, 300);
 
     displayResult("Effective Withdraw", effectiveWithdraw, 2, 21);
     displayResult("Current Balance", currentBalance, 2, 21);
 
-    effectiveWithdraw = withdraw(currentBalance, withdrawAmount);
+    effectiveWithdraw = withdraw(currentBalance, 300);
 
     displayResult("Effective Withdraw", effectiveWithdraw, 2, 21);
     displayResult("Current Balance", currentBalance, 2, 21);
