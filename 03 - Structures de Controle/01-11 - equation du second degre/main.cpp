@@ -8,6 +8,7 @@ int main() {
     cin >> a >> b >> c;
 
     double discriminant = pow(b,2) - 4*a*c;
+    double d = sqrt(discriminant);
 
     // 0x^2 + 0x + 0 = 0  👉tout x est un solution
     // 0x^2 + 0x + C = 0, C!= 0 👉 pas de  solution
@@ -30,7 +31,7 @@ int main() {
         }
     } else {
         if (discriminant > 0 ){
-            cout << "2 solutions: x = " << (-b + discriminant) / (2*a)  << " and " << (-b - discriminant) / (2*a) << endl;
+            cout << "2 solutions: x = " << (-b + d) / (2*a)  << " and " << (-b - d) / (2*a) << endl;
         } else if (discriminant == 0 ){
             cout << "1 solutions : x = " << (-b) / (2*a)<<  endl;
         } else {
